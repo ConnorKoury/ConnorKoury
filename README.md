@@ -1,16 +1,32 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**ConnorKoury/ConnorKoury** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="./tree.svg" alt="Animated ASCII Christmas Tree" width="220" />
 
-Here are some ideas to get you started:
+### Hey, I’m Connor
+**Computer Engineering @ Villanova • Data & Full-Stack Engineer • Radar & Telemetry**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
+
+---
+
+## About Me
+
+- 🏫 **Computer Engineer** at **Villanova University**
+- 🧠 Interested in **data systems, full-stack web apps, and embedded/radar systems**
+- 🏎️ Lead data analysis & acquistion for **Formula SAE** team (NovaRacing)
+
+---
+
+## 🛠️ Tech I Like Working With
+
+**Languages:**  
+`C` · `C++` · `Python` · `TypeScript` · `JavaScript` · `Java`
+
+**Backend / Cloud:**  
+`Node.js` · `tRPC` · `PostgreSQL` · `MongoDB` · `AWS` · `GCP` · `Docker` · `Terraform`
+
+**Frontend / UI:**  
+`React` · `Next.js` · `Tailwind CSS`
+
+**Data / Tools:**  
+`Amplitude` · `Stripe` · `Supabase` · `GCS` · `Git` · `GitHub`
