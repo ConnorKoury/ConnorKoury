@@ -11,13 +11,13 @@
 
 ## About Me
 
-- 🏫 **Computer Engineer** at **Villanova University**
-- 🧠 Interested in **data systems, full-stack web apps, and embedded/radar systems**
+- **Computer Engineer** at **Villanova University**
+- Interested in **data systems, full-stack web apps, and embedded/radar systems**
 - 🏎️ Lead data analysis & acquistion for **Formula SAE** team (NovaRacing)
 
 ---
 
-## 🛠️ Tech I Like Working With
+## Tech I Work With
 
 **Languages:**  
 `C` · `C++` · `Python` · `TypeScript` · `JavaScript` · `Java`
