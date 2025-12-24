@@ -3,7 +3,7 @@
 <img src="./tree.svg" alt="Animated ASCII Christmas Tree" width="220" />
 
 ### Hey, I’m Connor
-**Computer Engineering @ Villanova • Data & Full-Stack Engineer • Radar & Telemetry**
+**Computer Engineering @ Villanova • SWE @ WISE • Radar & Telemetry**
 
 </div>
 
