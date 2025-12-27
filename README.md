@@ -2,8 +2,8 @@
 
 <img src="./tree.svg" alt="Animated ASCII Christmas Tree" width="220" />
 
-### Hey, I’m Connor
-**Computer Engineering @ Villanova • SWE @ WISE • Radar & Telemetry**
+### Hi, I’m Connor
+**SWE @ WISE • Computer Engineering @ Villanova • Radar & Data**
 
 </div>
 
@@ -11,8 +11,7 @@
 
 ## About Me
 
-- **Computer Engineer** at **Villanova University**
-- Interested in **data systems, full-stack web apps, and embedded/radar systems**
+- Interested in **data systems, full-stack web apps, and embedded systems**
 - 🏎️ Lead data analysis & acquistion for **Formula SAE** team (NovaRacing)
 
 ---
