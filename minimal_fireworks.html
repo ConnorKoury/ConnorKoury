@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background: #0a0e27;
+      margin: 0;
+      padding: 20px;
+      font-family: monospace;
+      overflow: hidden;
+    }
+    #fireworks {
+      color: #00e5ff;
+      font-size: 12px;
+      line-height: 1.2;
+      white-space: pre;
+    }
+  </style>
+</head>
+<body>
+  <div id="fireworks"></div>
+  <script>
+    const width = 80;
+    const height = 30;
+
+    function createFirework() {
+      const x = Math.floor(Math.random() * (width - 20)) + 10;
+      const colors = ['#00e5ff', '#ff00e5', '#e5ff00', '#00ff88', '#ff8800'];
+      const color = colors[Math.floor(Math.random() * colors.length)];
+
+      return {
+        x, y: height,
+        targetY: Math.floor(Math.random() * 10) + 5,
+        color,
+        phase: 'rising',
+        particles: []
+      };
+    }
+
+    function explode(fw) {
+      const patterns = [
+        '***', '...', '+++', '===', '~~~', '^^^'
+      ];
+
+      for (let i = 0; i < 12; i++) {
+        const angle = (i / 12) * Math.PI * 2;
+        const speed = 0.5 + Math.random() * 0.5;
+        fw.particles.push({
+          x: fw.x,
+          y: fw.targetY,
+          vx: Math.cos(angle) * speed,
+          vy: Math.sin(angle) * speed,
+          life: 20,
+          char: patterns[Math.floor(Math.random() * patterns.length)]
+        });
+      }
+    }
+
+    const fireworks = [];
+
+    function update() {
+      // Add new firework occasionally
+      if (Math.random() < 0.05 && fireworks.length < 3) {
+        fireworks.push(createFirework());
+      }
+
+      // Update fireworks
+      for (let i = fireworks.length - 1; i >= 0; i--) {
+        const fw = fireworks[i];
+
+        if (fw.phase === 'rising') {
+          fw.y -= 0.5;
+          if (fw.y <= fw.targetY) {
+            fw.phase = 'exploding';
+            explode(fw);
+          }
+        } else if (fw.phase === 'exploding') {
+          let allDead = true;
+          for (const p of fw.particles) {
+            p.x += p.vx;
+            p.y += p.vy;
+            p.vy += 0.05; // gravity
+            p.life--;
+            if (p.life > 0) allDead = false;
+          }
+          if (allDead) {
+            fireworks.splice(i, 1);
+          }
+        }
+      }
+    }
+
+    function render() {
+      const grid = Array(height).fill(null).map(() =>
+        Array(width).fill({ char: ' ', color: '#00e5ff' })
+      );
+
+      // Render fireworks
+      for (const fw of fireworks) {
+        if (fw.phase === 'rising') {
+          const y = Math.floor(fw.y);
+          const x = Math.floor(fw.x);
+          if (y >= 0 && y < height && x >= 0 && x < width) {
+            grid[y][x] = { char: '|', color: fw.color };
+          }
+        } else {
+          for (const p of fw.particles) {
+            if (p.life > 0) {
+              const x = Math.floor(p.x);
+              const y = Math.floor(p.y);
+              if (y >= 0 && y < height && x >= 0 && x < width) {
+                const opacity = p.life / 20;
+                grid[y][x] = { char: p.char[0], color: fw.color, opacity };
+              }
+            }
+          }
+        }
+      }
+
+      // Convert to HTML
+      let html = '';
+      for (let y = 0; y < height; y++) {
+        for (let x = 0; x < width; x++) {
+          const cell = grid[y][x];
+          const opacity = cell.opacity || 1;
+          const style = `color: ${cell.color}; opacity: ${opacity}`;
+          html += `<span style="${style}">${cell.char}</span>`;
+        }
+        html += '\n';
+      }
+
+      document.getElementById('fireworks').innerHTML = html;
+    }
+
+    function loop() {
+      update();
+      render();
+      requestAnimationFrame(loop);
+    }
+
+    loop();
+  </script>
+</body>
+</html>
