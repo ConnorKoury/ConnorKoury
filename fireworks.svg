@@ -9,7 +9,7 @@
           font-family: 'Courier New', 'Consolas', monospace;
           font-size: 12px;
           line-height: 1.2;
-          color: #00d4ff;
+          color: #0062ff;
           padding: 20px;
           position: relative;
           overflow: hidden;
@@ -40,153 +40,137 @@
             0 0 18px hsl(calc(var(--hue, 0) + 260), 100%, 66%);
         }
 
-        @keyframes frame0 { 0.0%, 1.4% { opacity: 1; } 1.5%, 100% { opacity: 0; } }
-        @keyframes frame1 { 0%, 1.3% { opacity: 0; } 1.4%, 2.8% { opacity: 1; } 2.9%, 100% { opacity: 0; } }
-        @keyframes frame2 { 0%, 2.7% { opacity: 0; } 2.8%, 4.2% { opacity: 1; } 4.3%, 100% { opacity: 0; } }
-        @keyframes frame3 { 0%, 4.1% { opacity: 0; } 4.2%, 5.6% { opacity: 1; } 5.7%, 100% { opacity: 0; } }
-        @keyframes frame4 { 0%, 5.5% { opacity: 0; } 5.6%, 7.0% { opacity: 1; } 7.1%, 100% { opacity: 0; } }
-        @keyframes frame5 { 0%, 6.9% { opacity: 0; } 7.0%, 8.5% { opacity: 1; } 8.6%, 100% { opacity: 0; } }
-        @keyframes frame6 { 0%, 8.4% { opacity: 0; } 8.5%, 9.9% { opacity: 1; } 10.0%, 100% { opacity: 0; } }
-        @keyframes frame7 { 0%, 9.8% { opacity: 0; } 9.9%, 11.3% { opacity: 1; } 11.4%, 100% { opacity: 0; } }
-        @keyframes frame8 { 0%, 11.2% { opacity: 0; } 11.3%, 12.7% { opacity: 1; } 12.8%, 100% { opacity: 0; } }
-        @keyframes frame9 { 0%, 12.6% { opacity: 0; } 12.7%, 14.1% { opacity: 1; } 14.2%, 100% { opacity: 0; } }
-        @keyframes frame10 { 0%, 14.0% { opacity: 0; } 14.1%, 15.5% { opacity: 1; } 15.6%, 100% { opacity: 0; } }
-        @keyframes frame11 { 0%, 15.4% { opacity: 0; } 15.5%, 16.9% { opacity: 1; } 17.0%, 100% { opacity: 0; } }
-        @keyframes frame12 { 0%, 16.8% { opacity: 0; } 16.9%, 18.3% { opacity: 1; } 18.4%, 100% { opacity: 0; } }
-        @keyframes frame13 { 0%, 18.2% { opacity: 0; } 18.3%, 19.7% { opacity: 1; } 19.8%, 100% { opacity: 0; } }
-        @keyframes frame14 { 0%, 19.6% { opacity: 0; } 19.7%, 21.1% { opacity: 1; } 21.2%, 100% { opacity: 0; } }
-        @keyframes frame15 { 0%, 21.0% { opacity: 0; } 21.1%, 22.5% { opacity: 1; } 22.6%, 100% { opacity: 0; } }
-        @keyframes frame16 { 0%, 22.4% { opacity: 0; } 22.5%, 23.9% { opacity: 1; } 24.0%, 100% { opacity: 0; } }
-        @keyframes frame17 { 0%, 23.8% { opacity: 0; } 23.9%, 25.4% { opacity: 1; } 25.5%, 100% { opacity: 0; } }
-        @keyframes frame18 { 0%, 25.3% { opacity: 0; } 25.4%, 26.8% { opacity: 1; } 26.9%, 100% { opacity: 0; } }
-        @keyframes frame19 { 0%, 26.7% { opacity: 0; } 26.8%, 28.2% { opacity: 1; } 28.3%, 100% { opacity: 0; } }
-        @keyframes frame20 { 0%, 28.1% { opacity: 0; } 28.2%, 29.6% { opacity: 1; } 29.7%, 100% { opacity: 0; } }
-        @keyframes frame21 { 0%, 29.5% { opacity: 0; } 29.6%, 31.0% { opacity: 1; } 31.1%, 100% { opacity: 0; } }
-        @keyframes frame22 { 0%, 30.9% { opacity: 0; } 31.0%, 32.4% { opacity: 1; } 32.5%, 100% { opacity: 0; } }
-        @keyframes frame23 { 0%, 32.3% { opacity: 0; } 32.4%, 33.8% { opacity: 1; } 33.9%, 100% { opacity: 0; } }
-        @keyframes frame24 { 0%, 33.7% { opacity: 0; } 33.8%, 35.2% { opacity: 1; } 35.3%, 100% { opacity: 0; } }
-        @keyframes frame25 { 0%, 35.1% { opacity: 0; } 35.2%, 36.6% { opacity: 1; } 36.7%, 100% { opacity: 0; } }
-        @keyframes frame26 { 0%, 36.5% { opacity: 0; } 36.6%, 38.0% { opacity: 1; } 38.1%, 100% { opacity: 0; } }
-        @keyframes frame27 { 0%, 37.9% { opacity: 0; } 38.0%, 39.4% { opacity: 1; } 39.5%, 100% { opacity: 0; } }
-        @keyframes frame28 { 0%, 39.3% { opacity: 0; } 39.4%, 40.8% { opacity: 1; } 40.9%, 100% { opacity: 0; } }
-        @keyframes frame29 { 0%, 40.7% { opacity: 0; } 40.8%, 42.3% { opacity: 1; } 42.4%, 100% { opacity: 0; } }
-        @keyframes frame30 { 0%, 42.2% { opacity: 0; } 42.3%, 43.7% { opacity: 1; } 43.8%, 100% { opacity: 0; } }
-        @keyframes frame31 { 0%, 43.6% { opacity: 0; } 43.7%, 45.1% { opacity: 1; } 45.2%, 100% { opacity: 0; } }
-        @keyframes frame32 { 0%, 45.0% { opacity: 0; } 45.1%, 46.5% { opacity: 1; } 46.6%, 100% { opacity: 0; } }
-        @keyframes frame33 { 0%, 46.4% { opacity: 0; } 46.5%, 47.9% { opacity: 1; } 48.0%, 100% { opacity: 0; } }
-        @keyframes frame34 { 0%, 47.8% { opacity: 0; } 47.9%, 49.3% { opacity: 1; } 49.4%, 100% { opacity: 0; } }
-        @keyframes frame35 { 0%, 49.2% { opacity: 0; } 49.3%, 50.7% { opacity: 1; } 50.8%, 100% { opacity: 0; } }
-        @keyframes frame36 { 0%, 50.6% { opacity: 0; } 50.7%, 52.1% { opacity: 1; } 52.2%, 100% { opacity: 0; } }
-        @keyframes frame37 { 0%, 52.0% { opacity: 0; } 52.1%, 53.5% { opacity: 1; } 53.6%, 100% { opacity: 0; } }
-        @keyframes frame38 { 0%, 53.4% { opacity: 0; } 53.5%, 54.9% { opacity: 1; } 55.0%, 100% { opacity: 0; } }
-        @keyframes frame39 { 0%, 54.8% { opacity: 0; } 54.9%, 56.3% { opacity: 1; } 56.4%, 100% { opacity: 0; } }
-        @keyframes frame40 { 0%, 56.2% { opacity: 0; } 56.3%, 57.7% { opacity: 1; } 57.8%, 100% { opacity: 0; } }
-        @keyframes frame41 { 0%, 57.6% { opacity: 0; } 57.7%, 59.2% { opacity: 1; } 59.3%, 100% { opacity: 0; } }
-        @keyframes frame42 { 0%, 59.1% { opacity: 0; } 59.2%, 60.6% { opacity: 1; } 60.7%, 100% { opacity: 0; } }
-        @keyframes frame43 { 0%, 60.5% { opacity: 0; } 60.6%, 62.0% { opacity: 1; } 62.1%, 100% { opacity: 0; } }
-        @keyframes frame44 { 0%, 61.9% { opacity: 0; } 62.0%, 63.4% { opacity: 1; } 63.5%, 100% { opacity: 0; } }
-        @keyframes frame45 { 0%, 63.3% { opacity: 0; } 63.4%, 64.8% { opacity: 1; } 64.9%, 100% { opacity: 0; } }
-        @keyframes frame46 { 0%, 64.7% { opacity: 0; } 64.8%, 66.2% { opacity: 1; } 66.3%, 100% { opacity: 0; } }
-        @keyframes frame47 { 0%, 66.1% { opacity: 0; } 66.2%, 67.6% { opacity: 1; } 67.7%, 100% { opacity: 0; } }
-        @keyframes frame48 { 0%, 67.5% { opacity: 0; } 67.6%, 69.0% { opacity: 1; } 69.1%, 100% { opacity: 0; } }
-        @keyframes frame49 { 0%, 68.9% { opacity: 0; } 69.0%, 70.4% { opacity: 1; } 70.5%, 100% { opacity: 0; } }
-        @keyframes frame50 { 0%, 70.3% { opacity: 0; } 70.4%, 71.8% { opacity: 1; } 71.9%, 100% { opacity: 0; } }
-        @keyframes frame51 { 0%, 71.7% { opacity: 0; } 71.8%, 73.2% { opacity: 1; } 73.3%, 100% { opacity: 0; } }
-        @keyframes frame52 { 0%, 73.1% { opacity: 0; } 73.2%, 74.6% { opacity: 1; } 74.7%, 100% { opacity: 0; } }
-        @keyframes frame53 { 0%, 74.5% { opacity: 0; } 74.6%, 76.1% { opacity: 1; } 76.2%, 100% { opacity: 0; } }
-        @keyframes frame54 { 0%, 76.0% { opacity: 0; } 76.1%, 77.5% { opacity: 1; } 77.6%, 100% { opacity: 0; } }
-        @keyframes frame55 { 0%, 77.4% { opacity: 0; } 77.5%, 78.9% { opacity: 1; } 79.0%, 100% { opacity: 0; } }
-        @keyframes frame56 { 0%, 78.8% { opacity: 0; } 78.9%, 80.3% { opacity: 1; } 80.4%, 100% { opacity: 0; } }
-        @keyframes frame57 { 0%, 80.2% { opacity: 0; } 80.3%, 81.7% { opacity: 1; } 81.8%, 100% { opacity: 0; } }
-        @keyframes frame58 { 0%, 81.6% { opacity: 0; } 81.7%, 83.1% { opacity: 1; } 83.2%, 100% { opacity: 0; } }
-        @keyframes frame59 { 0%, 83.0% { opacity: 0; } 83.1%, 84.5% { opacity: 1; } 84.6%, 100% { opacity: 0; } }
-        @keyframes frame60 { 0%, 84.4% { opacity: 0; } 84.5%, 85.9% { opacity: 1; } 86.0%, 100% { opacity: 0; } }
-        @keyframes frame61 { 0%, 85.8% { opacity: 0; } 85.9%, 87.3% { opacity: 1; } 87.4%, 100% { opacity: 0; } }
-        @keyframes frame62 { 0%, 87.2% { opacity: 0; } 87.3%, 88.7% { opacity: 1; } 88.8%, 100% { opacity: 0; } }
-        @keyframes frame63 { 0%, 88.6% { opacity: 0; } 88.7%, 90.1% { opacity: 1; } 90.2%, 100% { opacity: 0; } }
-        @keyframes frame64 { 0%, 90.0% { opacity: 0; } 90.1%, 91.5% { opacity: 1; } 91.6%, 100% { opacity: 0; } }
-        @keyframes frame65 { 0%, 91.4% { opacity: 0; } 91.5%, 93.0% { opacity: 1; } 93.1%, 100% { opacity: 0; } }
-        @keyframes frame66 { 0%, 92.9% { opacity: 0; } 93.0%, 94.4% { opacity: 1; } 94.5%, 100% { opacity: 0; } }
-        @keyframes frame67 { 0%, 94.3% { opacity: 0; } 94.4%, 95.8% { opacity: 1; } 95.9%, 100% { opacity: 0; } }
-        @keyframes frame68 { 0%, 95.7% { opacity: 0; } 95.8%, 97.2% { opacity: 1; } 97.3%, 100% { opacity: 0; } }
-        @keyframes frame69 { 0%, 97.1% { opacity: 0; } 97.2%, 98.6% { opacity: 1; } 98.7%, 100% { opacity: 0; } }
-        @keyframes frame70 { 0%, 98.5% { opacity: 0; } 98.6%, 100.0% { opacity: 1; } }
+        @keyframes frame0 { 0.0%, 1.6% { opacity: 1; } 1.7%, 100% { opacity: 0; } }
+        @keyframes frame1 { 0%, 1.5% { opacity: 0; } 1.6%, 3.2% { opacity: 1; } 3.3%, 100% { opacity: 0; } }
+        @keyframes frame2 { 0%, 3.1% { opacity: 0; } 3.2%, 4.8% { opacity: 1; } 4.9%, 100% { opacity: 0; } }
+        @keyframes frame3 { 0%, 4.7% { opacity: 0; } 4.8%, 6.3% { opacity: 1; } 6.4%, 100% { opacity: 0; } }
+        @keyframes frame4 { 0%, 6.2% { opacity: 0; } 6.3%, 7.9% { opacity: 1; } 8.0%, 100% { opacity: 0; } }
+        @keyframes frame5 { 0%, 7.8% { opacity: 0; } 7.9%, 9.5% { opacity: 1; } 9.6%, 100% { opacity: 0; } }
+        @keyframes frame6 { 0%, 9.4% { opacity: 0; } 9.5%, 11.1% { opacity: 1; } 11.2%, 100% { opacity: 0; } }
+        @keyframes frame7 { 0%, 11.0% { opacity: 0; } 11.1%, 12.7% { opacity: 1; } 12.8%, 100% { opacity: 0; } }
+        @keyframes frame8 { 0%, 12.6% { opacity: 0; } 12.7%, 14.3% { opacity: 1; } 14.4%, 100% { opacity: 0; } }
+        @keyframes frame9 { 0%, 14.2% { opacity: 0; } 14.3%, 15.9% { opacity: 1; } 16.0%, 100% { opacity: 0; } }
+        @keyframes frame10 { 0%, 15.8% { opacity: 0; } 15.9%, 17.5% { opacity: 1; } 17.6%, 100% { opacity: 0; } }
+        @keyframes frame11 { 0%, 17.4% { opacity: 0; } 17.5%, 19.0% { opacity: 1; } 19.1%, 100% { opacity: 0; } }
+        @keyframes frame12 { 0%, 18.9% { opacity: 0; } 19.0%, 20.6% { opacity: 1; } 20.7%, 100% { opacity: 0; } }
+        @keyframes frame13 { 0%, 20.5% { opacity: 0; } 20.6%, 22.2% { opacity: 1; } 22.3%, 100% { opacity: 0; } }
+        @keyframes frame14 { 0%, 22.1% { opacity: 0; } 22.2%, 23.8% { opacity: 1; } 23.9%, 100% { opacity: 0; } }
+        @keyframes frame15 { 0%, 23.7% { opacity: 0; } 23.8%, 25.4% { opacity: 1; } 25.5%, 100% { opacity: 0; } }
+        @keyframes frame16 { 0%, 25.3% { opacity: 0; } 25.4%, 27.0% { opacity: 1; } 27.1%, 100% { opacity: 0; } }
+        @keyframes frame17 { 0%, 26.9% { opacity: 0; } 27.0%, 28.6% { opacity: 1; } 28.7%, 100% { opacity: 0; } }
+        @keyframes frame18 { 0%, 28.5% { opacity: 0; } 28.6%, 30.2% { opacity: 1; } 30.3%, 100% { opacity: 0; } }
+        @keyframes frame19 { 0%, 30.1% { opacity: 0; } 30.2%, 31.7% { opacity: 1; } 31.8%, 100% { opacity: 0; } }
+        @keyframes frame20 { 0%, 31.6% { opacity: 0; } 31.7%, 33.3% { opacity: 1; } 33.4%, 100% { opacity: 0; } }
+        @keyframes frame21 { 0%, 33.2% { opacity: 0; } 33.3%, 34.9% { opacity: 1; } 35.0%, 100% { opacity: 0; } }
+        @keyframes frame22 { 0%, 34.8% { opacity: 0; } 34.9%, 36.5% { opacity: 1; } 36.6%, 100% { opacity: 0; } }
+        @keyframes frame23 { 0%, 36.4% { opacity: 0; } 36.5%, 38.1% { opacity: 1; } 38.2%, 100% { opacity: 0; } }
+        @keyframes frame24 { 0%, 38.0% { opacity: 0; } 38.1%, 39.7% { opacity: 1; } 39.8%, 100% { opacity: 0; } }
+        @keyframes frame25 { 0%, 39.6% { opacity: 0; } 39.7%, 41.3% { opacity: 1; } 41.4%, 100% { opacity: 0; } }
+        @keyframes frame26 { 0%, 41.2% { opacity: 0; } 41.3%, 42.9% { opacity: 1; } 43.0%, 100% { opacity: 0; } }
+        @keyframes frame27 { 0%, 42.8% { opacity: 0; } 42.9%, 44.4% { opacity: 1; } 44.5%, 100% { opacity: 0; } }
+        @keyframes frame28 { 0%, 44.3% { opacity: 0; } 44.4%, 46.0% { opacity: 1; } 46.1%, 100% { opacity: 0; } }
+        @keyframes frame29 { 0%, 45.9% { opacity: 0; } 46.0%, 47.6% { opacity: 1; } 47.7%, 100% { opacity: 0; } }
+        @keyframes frame30 { 0%, 47.5% { opacity: 0; } 47.6%, 49.2% { opacity: 1; } 49.3%, 100% { opacity: 0; } }
+        @keyframes frame31 { 0%, 49.1% { opacity: 0; } 49.2%, 50.8% { opacity: 1; } 50.9%, 100% { opacity: 0; } }
+        @keyframes frame32 { 0%, 50.7% { opacity: 0; } 50.8%, 52.4% { opacity: 1; } 52.5%, 100% { opacity: 0; } }
+        @keyframes frame33 { 0%, 52.3% { opacity: 0; } 52.4%, 54.0% { opacity: 1; } 54.1%, 100% { opacity: 0; } }
+        @keyframes frame34 { 0%, 53.9% { opacity: 0; } 54.0%, 55.6% { opacity: 1; } 55.7%, 100% { opacity: 0; } }
+        @keyframes frame35 { 0%, 55.5% { opacity: 0; } 55.6%, 57.1% { opacity: 1; } 57.2%, 100% { opacity: 0; } }
+        @keyframes frame36 { 0%, 57.0% { opacity: 0; } 57.1%, 58.7% { opacity: 1; } 58.8%, 100% { opacity: 0; } }
+        @keyframes frame37 { 0%, 58.6% { opacity: 0; } 58.7%, 60.3% { opacity: 1; } 60.4%, 100% { opacity: 0; } }
+        @keyframes frame38 { 0%, 60.2% { opacity: 0; } 60.3%, 61.9% { opacity: 1; } 62.0%, 100% { opacity: 0; } }
+        @keyframes frame39 { 0%, 61.8% { opacity: 0; } 61.9%, 63.5% { opacity: 1; } 63.6%, 100% { opacity: 0; } }
+        @keyframes frame40 { 0%, 63.4% { opacity: 0; } 63.5%, 65.1% { opacity: 1; } 65.2%, 100% { opacity: 0; } }
+        @keyframes frame41 { 0%, 65.0% { opacity: 0; } 65.1%, 66.7% { opacity: 1; } 66.8%, 100% { opacity: 0; } }
+        @keyframes frame42 { 0%, 66.6% { opacity: 0; } 66.7%, 68.3% { opacity: 1; } 68.4%, 100% { opacity: 0; } }
+        @keyframes frame43 { 0%, 68.2% { opacity: 0; } 68.3%, 69.8% { opacity: 1; } 69.9%, 100% { opacity: 0; } }
+        @keyframes frame44 { 0%, 69.7% { opacity: 0; } 69.8%, 71.4% { opacity: 1; } 71.5%, 100% { opacity: 0; } }
+        @keyframes frame45 { 0%, 71.3% { opacity: 0; } 71.4%, 73.0% { opacity: 1; } 73.1%, 100% { opacity: 0; } }
+        @keyframes frame46 { 0%, 72.9% { opacity: 0; } 73.0%, 74.6% { opacity: 1; } 74.7%, 100% { opacity: 0; } }
+        @keyframes frame47 { 0%, 74.5% { opacity: 0; } 74.6%, 76.2% { opacity: 1; } 76.3%, 100% { opacity: 0; } }
+        @keyframes frame48 { 0%, 76.1% { opacity: 0; } 76.2%, 77.8% { opacity: 1; } 77.9%, 100% { opacity: 0; } }
+        @keyframes frame49 { 0%, 77.7% { opacity: 0; } 77.8%, 79.4% { opacity: 1; } 79.5%, 100% { opacity: 0; } }
+        @keyframes frame50 { 0%, 79.3% { opacity: 0; } 79.4%, 81.0% { opacity: 1; } 81.1%, 100% { opacity: 0; } }
+        @keyframes frame51 { 0%, 80.9% { opacity: 0; } 81.0%, 82.5% { opacity: 1; } 82.6%, 100% { opacity: 0; } }
+        @keyframes frame52 { 0%, 82.4% { opacity: 0; } 82.5%, 84.1% { opacity: 1; } 84.2%, 100% { opacity: 0; } }
+        @keyframes frame53 { 0%, 84.0% { opacity: 0; } 84.1%, 85.7% { opacity: 1; } 85.8%, 100% { opacity: 0; } }
+        @keyframes frame54 { 0%, 85.6% { opacity: 0; } 85.7%, 87.3% { opacity: 1; } 87.4%, 100% { opacity: 0; } }
+        @keyframes frame55 { 0%, 87.2% { opacity: 0; } 87.3%, 88.9% { opacity: 1; } 89.0%, 100% { opacity: 0; } }
+        @keyframes frame56 { 0%, 88.8% { opacity: 0; } 88.9%, 90.5% { opacity: 1; } 90.6%, 100% { opacity: 0; } }
+        @keyframes frame57 { 0%, 90.4% { opacity: 0; } 90.5%, 92.1% { opacity: 1; } 92.2%, 100% { opacity: 0; } }
+        @keyframes frame58 { 0%, 92.0% { opacity: 0; } 92.1%, 93.7% { opacity: 1; } 93.8%, 100% { opacity: 0; } }
+        @keyframes frame59 { 0%, 93.6% { opacity: 0; } 93.7%, 95.2% { opacity: 1; } 95.3%, 100% { opacity: 0; } }
+        @keyframes frame60 { 0%, 95.1% { opacity: 0; } 95.2%, 96.8% { opacity: 1; } 96.9%, 100% { opacity: 0; } }
+        @keyframes frame61 { 0%, 96.7% { opacity: 0; } 96.8%, 98.4% { opacity: 1; } 98.5%, 100% { opacity: 0; } }
+        @keyframes frame62 { 0%, 98.3% { opacity: 0; } 98.4%, 100.0% { opacity: 1; } }
 
-        .f0 { animation: frame0 7.08s infinite; }
-        .f1 { animation: frame1 7.08s infinite; }
-        .f2 { animation: frame2 7.08s infinite; }
-        .f3 { animation: frame3 7.08s infinite; }
-        .f4 { animation: frame4 7.08s infinite; }
-        .f5 { animation: frame5 7.08s infinite; }
-        .f6 { animation: frame6 7.08s infinite; }
-        .f7 { animation: frame7 7.08s infinite; }
-        .f8 { animation: frame8 7.08s infinite; }
-        .f9 { animation: frame9 7.08s infinite; }
-        .f10 { animation: frame10 7.08s infinite; }
-        .f11 { animation: frame11 7.08s infinite; }
-        .f12 { animation: frame12 7.08s infinite; }
-        .f13 { animation: frame13 7.08s infinite; }
-        .f14 { animation: frame14 7.08s infinite; }
-        .f15 { animation: frame15 7.08s infinite; }
-        .f16 { animation: frame16 7.08s infinite; }
-        .f17 { animation: frame17 7.08s infinite; }
-        .f18 { animation: frame18 7.08s infinite; }
-        .f19 { animation: frame19 7.08s infinite; }
-        .f20 { animation: frame20 7.08s infinite; }
-        .f21 { animation: frame21 7.08s infinite; }
-        .f22 { animation: frame22 7.08s infinite; }
-        .f23 { animation: frame23 7.08s infinite; }
-        .f24 { animation: frame24 7.08s infinite; }
-        .f25 { animation: frame25 7.08s infinite; }
-        .f26 { animation: frame26 7.08s infinite; }
-        .f27 { animation: frame27 7.08s infinite; }
-        .f28 { animation: frame28 7.08s infinite; }
-        .f29 { animation: frame29 7.08s infinite; }
-        .f30 { animation: frame30 7.08s infinite; }
-        .f31 { animation: frame31 7.08s infinite; }
-        .f32 { animation: frame32 7.08s infinite; }
-        .f33 { animation: frame33 7.08s infinite; }
-        .f34 { animation: frame34 7.08s infinite; }
-        .f35 { animation: frame35 7.08s infinite; }
-        .f36 { animation: frame36 7.08s infinite; }
-        .f37 { animation: frame37 7.08s infinite; }
-        .f38 { animation: frame38 7.08s infinite; }
-        .f39 { animation: frame39 7.08s infinite; }
-        .f40 { animation: frame40 7.08s infinite; }
-        .f41 { animation: frame41 7.08s infinite; }
-        .f42 { animation: frame42 7.08s infinite; }
-        .f43 { animation: frame43 7.08s infinite; }
-        .f44 { animation: frame44 7.08s infinite; }
-        .f45 { animation: frame45 7.08s infinite; }
-        .f46 { animation: frame46 7.08s infinite; }
-        .f47 { animation: frame47 7.08s infinite; }
-        .f48 { animation: frame48 7.08s infinite; }
-        .f49 { animation: frame49 7.08s infinite; }
-        .f50 { animation: frame50 7.08s infinite; }
-        .f51 { animation: frame51 7.08s infinite; }
-        .f52 { animation: frame52 7.08s infinite; }
-        .f53 { animation: frame53 7.08s infinite; }
-        .f54 { animation: frame54 7.08s infinite; }
-        .f55 { animation: frame55 7.08s infinite; }
-        .f56 { animation: frame56 7.08s infinite; }
-        .f57 { animation: frame57 7.08s infinite; }
-        .f58 { animation: frame58 7.08s infinite; }
-        .f59 { animation: frame59 7.08s infinite; }
-        .f60 { animation: frame60 7.08s infinite; }
-        .f61 { animation: frame61 7.08s infinite; }
-        .f62 { animation: frame62 7.08s infinite; }
-        .f63 { animation: frame63 7.08s infinite; }
-        .f64 { animation: frame64 7.08s infinite; }
-        .f65 { animation: frame65 7.08s infinite; }
-        .f66 { animation: frame66 7.08s infinite; }
-        .f67 { animation: frame67 7.08s infinite; }
-        .f68 { animation: frame68 7.08s infinite; }
-        .f69 { animation: frame69 7.08s infinite; }
-        .f70 { animation: frame70 7.08s infinite; }
+        .f0 { animation: frame0 6.23s infinite; }
+        .f1 { animation: frame1 6.23s infinite; }
+        .f2 { animation: frame2 6.23s infinite; }
+        .f3 { animation: frame3 6.23s infinite; }
+        .f4 { animation: frame4 6.23s infinite; }
+        .f5 { animation: frame5 6.23s infinite; }
+        .f6 { animation: frame6 6.23s infinite; }
+        .f7 { animation: frame7 6.23s infinite; }
+        .f8 { animation: frame8 6.23s infinite; }
+        .f9 { animation: frame9 6.23s infinite; }
+        .f10 { animation: frame10 6.23s infinite; }
+        .f11 { animation: frame11 6.23s infinite; }
+        .f12 { animation: frame12 6.23s infinite; }
+        .f13 { animation: frame13 6.23s infinite; }
+        .f14 { animation: frame14 6.23s infinite; }
+        .f15 { animation: frame15 6.23s infinite; }
+        .f16 { animation: frame16 6.23s infinite; }
+        .f17 { animation: frame17 6.23s infinite; }
+        .f18 { animation: frame18 6.23s infinite; }
+        .f19 { animation: frame19 6.23s infinite; }
+        .f20 { animation: frame20 6.23s infinite; }
+        .f21 { animation: frame21 6.23s infinite; }
+        .f22 { animation: frame22 6.23s infinite; }
+        .f23 { animation: frame23 6.23s infinite; }
+        .f24 { animation: frame24 6.23s infinite; }
+        .f25 { animation: frame25 6.23s infinite; }
+        .f26 { animation: frame26 6.23s infinite; }
+        .f27 { animation: frame27 6.23s infinite; }
+        .f28 { animation: frame28 6.23s infinite; }
+        .f29 { animation: frame29 6.23s infinite; }
+        .f30 { animation: frame30 6.23s infinite; }
+        .f31 { animation: frame31 6.23s infinite; }
+        .f32 { animation: frame32 6.23s infinite; }
+        .f33 { animation: frame33 6.23s infinite; }
+        .f34 { animation: frame34 6.23s infinite; }
+        .f35 { animation: frame35 6.23s infinite; }
+        .f36 { animation: frame36 6.23s infinite; }
+        .f37 { animation: frame37 6.23s infinite; }
+        .f38 { animation: frame38 6.23s infinite; }
+        .f39 { animation: frame39 6.23s infinite; }
+        .f40 { animation: frame40 6.23s infinite; }
+        .f41 { animation: frame41 6.23s infinite; }
+        .f42 { animation: frame42 6.23s infinite; }
+        .f43 { animation: frame43 6.23s infinite; }
+        .f44 { animation: frame44 6.23s infinite; }
+        .f45 { animation: frame45 6.23s infinite; }
+        .f46 { animation: frame46 6.23s infinite; }
+        .f47 { animation: frame47 6.23s infinite; }
+        .f48 { animation: frame48 6.23s infinite; }
+        .f49 { animation: frame49 6.23s infinite; }
+        .f50 { animation: frame50 6.23s infinite; }
+        .f51 { animation: frame51 6.23s infinite; }
+        .f52 { animation: frame52 6.23s infinite; }
+        .f53 { animation: frame53 6.23s infinite; }
+        .f54 { animation: frame54 6.23s infinite; }
+        .f55 { animation: frame55 6.23s infinite; }
+        .f56 { animation: frame56 6.23s infinite; }
+        .f57 { animation: frame57 6.23s infinite; }
+        .f58 { animation: frame58 6.23s infinite; }
+        .f59 { animation: frame59 6.23s infinite; }
+        .f60 { animation: frame60 6.23s infinite; }
+        .f61 { animation: frame61 6.23s infinite; }
+        .f62 { animation: frame62 6.23s infinite; }
 
         @media (prefers-reduced-motion) {
-          .f35 { opacity: 0.8 !important; animation: none !important; }
-          .scene:not(.f35) { display: none !important; }
+          .f31 { opacity: 0.8 !important; animation: none !important; }
+          .scene:not(.f31) { display: none !important; }
         }
       </style>
 
@@ -239,7 +223,7 @@
 </div>
 
         <!-- Frame 1 -->
-        <div class="scene f1" style="--hue: 5; --grad-x: 1%; --dim: 0.99;">
+        <div class="scene f1" style="--hue: 5; --grad-x: 2%; --dim: 0.99;">
 
 
 
@@ -285,7 +269,7 @@
 </div>
 
         <!-- Frame 2 -->
-        <div class="scene f2" style="--hue: 9; --grad-x: 3%; --dim: 0.99;">
+        <div class="scene f2" style="--hue: 10; --grad-x: 3%; --dim: 0.99;">
 
 
 
@@ -330,7 +314,7 @@
 </div>
 
         <!-- Frame 3 -->
-        <div class="scene f3" style="--hue: 14; --grad-x: 4%; --dim: 0.98;">
+        <div class="scene f3" style="--hue: 15; --grad-x: 5%; --dim: 0.98;">
 
 
 
@@ -374,7 +358,7 @@
 </div>
 
         <!-- Frame 4 -->
-        <div class="scene f4" style="--hue: 18; --grad-x: 6%; --dim: 0.98;">
+        <div class="scene f4" style="--hue: 21; --grad-x: 6%; --dim: 0.98;">
 
                                                 
                                                 
@@ -409,7 +393,7 @@
 </div>
 
         <!-- Frame 5 -->
-        <div class="scene f5" style="--hue: 23; --grad-x: 7%; --dim: 0.97;">
+        <div class="scene f5" style="--hue: 26; --grad-x: 8%; --dim: 0.97;">
 
                                                 
                                                 
@@ -444,7 +428,7 @@
 </div>
 
         <!-- Frame 6 -->
-        <div class="scene f6" style="--hue: 27; --grad-x: 9%; --dim: 0.97;">
+        <div class="scene f6" style="--hue: 31; --grad-x: 10%; --dim: 0.97;">
 
                                                 
                                                 
@@ -479,7 +463,7 @@
 </div>
 
         <!-- Frame 7 -->
-        <div class="scene f7" style="--hue: 32; --grad-x: 10%; --dim: 0.96;">
+        <div class="scene f7" style="--hue: 36; --grad-x: 11%; --dim: 0.96;">
 
                                                 
                                                 
@@ -514,7 +498,7 @@
 </div>
 
         <!-- Frame 8 -->
-        <div class="scene f8" style="--hue: 37; --grad-x: 11%; --dim: 0.96;">
+        <div class="scene f8" style="--hue: 41; --grad-x: 13%; --dim: 0.95;">
 
                                                 
                                                 
@@ -561,7 +545,7 @@
                                    </div>
 
         <!-- Frame 9 -->
-        <div class="scene f9" style="--hue: 41; --grad-x: 13%; --dim: 0.95;">
+        <div class="scene f9" style="--hue: 46; --grad-x: 15%; --dim: 0.95;">
 
                                                 
                                                 
@@ -607,7 +591,7 @@
                                    </div>
 
         <!-- Frame 10 -->
-        <div class="scene f10" style="--hue: 46; --grad-x: 14%; --dim: 0.95;">
+        <div class="scene f10" style="--hue: 52; --grad-x: 16%; --dim: 0.94;">
 
                                                 
                                                 
@@ -652,7 +636,7 @@
                                    </div>
 
         <!-- Frame 11 -->
-        <div class="scene f11" style="--hue: 50; --grad-x: 16%; --dim: 0.95;">
+        <div class="scene f11" style="--hue: 57; --grad-x: 18%; --dim: 0.94;">
 
                                                 
                                                 
@@ -696,7 +680,7 @@
                                    </div>
 
         <!-- Frame 12 -->
-        <div class="scene f12" style="--hue: 55; --grad-x: 17%; --dim: 0.94;">
+        <div class="scene f12" style="--hue: 62; --grad-x: 19%; --dim: 0.93;">
 
                                                                                                                    
                                                                                                                    
@@ -731,7 +715,7 @@
                                    </div>
 
         <!-- Frame 13 -->
-        <div class="scene f13" style="--hue: 59; --grad-x: 19%; --dim: 0.94;">
+        <div class="scene f13" style="--hue: 67; --grad-x: 21%; --dim: 0.93;">
 
                                                                                                                    
                                                                                                                    
@@ -766,7 +750,7 @@
                                    </div>
 
         <!-- Frame 14 -->
-        <div class="scene f14" style="--hue: 64; --grad-x: 20%; --dim: 0.93;">
+        <div class="scene f14" style="--hue: 72; --grad-x: 23%; --dim: 0.92;">
 
                                                                                                                    
                                                                                                                    
@@ -801,7 +785,7 @@
                                    </div>
 
         <!-- Frame 15 -->
-        <div class="scene f15" style="--hue: 69; --grad-x: 21%; --dim: 0.93;">
+        <div class="scene f15" style="--hue: 77; --grad-x: 24%; --dim: 0.92;">
 
                                                                                                                    
                                                                                                                    
@@ -836,7 +820,7 @@
                                    </div>
 
         <!-- Frame 16 -->
-        <div class="scene f16" style="--hue: 73; --grad-x: 23%; --dim: 0.92;">
+        <div class="scene f16" style="--hue: 83; --grad-x: 26%; --dim: 0.91;">
 
                                                                                                                    
                                                                                                                    
@@ -871,7 +855,7 @@
                                    </div>
 
         <!-- Frame 17 -->
-        <div class="scene f17" style="--hue: 78; --grad-x: 24%; --dim: 0.92;">
+        <div class="scene f17" style="--hue: 88; --grad-x: 27%; --dim: 0.90;">
 
                                                                                                                    
                                                                                                                    
@@ -918,7 +902,7 @@
                                                                                           </div>
 
         <!-- Frame 18 -->
-        <div class="scene f18" style="--hue: 82; --grad-x: 26%; --dim: 0.91;">
+        <div class="scene f18" style="--hue: 93; --grad-x: 29%; --dim: 0.90;">
 
                                                                                                                    
                                                                                                                    
@@ -964,7 +948,7 @@
                                                                                           </div>
 
         <!-- Frame 19 -->
-        <div class="scene f19" style="--hue: 87; --grad-x: 27%; --dim: 0.91;">
+        <div class="scene f19" style="--hue: 98; --grad-x: 31%; --dim: 0.89;">
 
                                                                                                                    
                                                                                                                    
@@ -1009,7 +993,7 @@
                                                                                           </div>
 
         <!-- Frame 20 -->
-        <div class="scene f20" style="--hue: 91; --grad-x: 29%; --dim: 0.90;">
+        <div class="scene f20" style="--hue: 103; --grad-x: 32%; --dim: 0.89;">
 
                                                                                                                    
                                                                                                                    
@@ -1053,7 +1037,7 @@
                                                                                           </div>
 
         <!-- Frame 21 -->
-        <div class="scene f21" style="--hue: 96; --grad-x: 30%; --dim: 0.90;">
+        <div class="scene f21" style="--hue: 108; --grad-x: 34%; --dim: 0.88;">
 
                                                                                                                                                                           
                                                                                                                                                                           
@@ -1088,7 +1072,7 @@
                                                                                           </div>
 
         <!-- Frame 22 -->
-        <div class="scene f22" style="--hue: 101; --grad-x: 31%; --dim: 0.89;">
+        <div class="scene f22" style="--hue: 114; --grad-x: 35%; --dim: 0.88;">
 
                                                                                                                                                                           
                                                                                                                                                                           
@@ -1123,7 +1107,7 @@
                                                                                           </div>
 
         <!-- Frame 23 -->
-        <div class="scene f23" style="--hue: 105; --grad-x: 33%; --dim: 0.89;">
+        <div class="scene f23" style="--hue: 119; --grad-x: 37%; --dim: 0.87;">
 
                                                                                                                                                                           
          +                                                                                                                                                                
@@ -1158,7 +1142,7 @@ O   @     .   X
                                                                                           </div>
 
         <!-- Frame 24 -->
-        <div class="scene f24" style="--hue: 110; --grad-x: 34%; --dim: 0.88;">
+        <div class="scene f24" style="--hue: 124; --grad-x: 39%; --dim: 0.86;">
 
           +                                                                                                                                                               
        X                                                                                                                                                                  
@@ -1193,7 +1177,7 @@ O    +@  O*      X                                                        X+
                                                                                           </div>
 
         <!-- Frame 25 -->
-        <div class="scene f25" style="--hue: 114; --grad-x: 36%; --dim: 0.88;">
+        <div class="scene f25" style="--hue: 129; --grad-x: 40%; --dim: 0.86;">
 
        X                                                                                                                                                                  
                                                                                                                                                                           
@@ -1240,7 +1224,7 @@ O   X
                </div>
 
         <!-- Frame 26 -->
-        <div class="scene f26" style="--hue: 119; --grad-x: 37%; --dim: 0.87;">
+        <div class="scene f26" style="--hue: 134; --grad-x: 42%; --dim: 0.85;">
 
                                                                                                                                                                           
  +  X                                                                                                                                                                     
@@ -1286,7 +1270,7 @@ O   X
                </div>
 
         <!-- Frame 27 -->
-        <div class="scene f27" style="--hue: 123; --grad-x: 39%; --dim: 0.86;">
+        <div class="scene f27" style="--hue: 139; --grad-x: 44%; --dim: 0.85;">
 
                                                                                                                                                                           
     X    .   *   X                                                                                                                                                        
@@ -1331,7 +1315,7 @@ O   X
                </div>
 
         <!-- Frame 28 -->
-        <div class="scene f28" style="--hue: 128; --grad-x: 40%; --dim: 0.86;">
+        <div class="scene f28" style="--hue: 145; --grad-x: 45%; --dim: 0.84;">
 
    X                                                                                                                                                                      
      .   .   *                                                                                                                                                            
@@ -1375,7 +1359,7 @@ O   X
                </div>
 
         <!-- Frame 29 -->
-        <div class="scene f29" style="--hue: 133; --grad-x: 41%; --dim: 0.85;">
+        <div class="scene f29" style="--hue: 150; --grad-x: 47%; --dim: 0.84;">
 
          .                                                                                                                                                                
      .                                                                                                                                                                    
@@ -1410,7 +1394,7 @@ O   X
                                                                                           </div>
 
         <!-- Frame 30 -->
-        <div class="scene f30" style="--hue: 137; --grad-x: 43%; --dim: 0.85;">
+        <div class="scene f30" style="--hue: 155; --grad-x: 48%; --dim: 0.83;">
 
      .   .                                                                                                                                                                
                                                                                                                                                                           
@@ -1445,7 +1429,7 @@ O   X
                                                                                           </div>
 
         <!-- Frame 31 -->
-        <div class="scene f31" style="--hue: 142; --grad-x: 44%; --dim: 0.84;">
+        <div class="scene f31" style="--hue: 160; --grad-x: 50%; --dim: 0.82;">
 
                                                                                                                                                                           
                                                                             +                                                                                             
@@ -1480,7 +1464,7 @@ O   X
                                                                                           </div>
 
         <!-- Frame 32 -->
-        <div class="scene f32" style="--hue: 146; --grad-x: 46%; --dim: 0.84;">
+        <div class="scene f32" style="--hue: 165; --grad-x: 52%; --dim: 0.82;">
 
                                                                              +                                                                                            
                                                                           X                                                                                               
@@ -1515,7 +1499,7 @@ O   X
                                                                                           </div>
 
         <!-- Frame 33 -->
-        <div class="scene f33" style="--hue: 151; --grad-x: 47%; --dim: 0.83;">
+        <div class="scene f33" style="--hue: 170; --grad-x: 53%; --dim: 0.81;">
 
                                                                           X                                                                                               
                                                                                                                                                                           
@@ -1550,7 +1534,7 @@ O   X
                                                                                           </div>
 
         <!-- Frame 34 -->
-        <div class="scene f34" style="--hue: 155; --grad-x: 49%; --dim: 0.83;">
+        <div class="scene f34" style="--hue: 175; --grad-x: 55%; --dim: 0.81;">
 
                                                                                                                                                                           
                                                                     +  X                                                                                                  
@@ -1579,25 +1563,25 @@ O   X
                                                                                                                                                                           
                                                                                                                                                                           
                                                                                                                                                                           
-                                                |                                                                                                                         
-                                                |                                                                                                                         
+                                                                                               |                                                                          
+                                                                                               |                                                                          
                                                                                                                                                                           
-                                                                                          
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-        </div>
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                       </div>
 
         <!-- Frame 35 -->
-        <div class="scene f35" style="--hue: 160; --grad-x: 50%; --dim: 0.82;">
+        <div class="scene f35" style="--hue: 181; --grad-x: 56%; --dim: 0.80;">
 
                                                                                                                                                                           
                                                                        X    .   *   X                                                                                     
@@ -1625,25 +1609,25 @@ O   X
                                                                          . *                                                                                              
                                                                         X                                                                                                 
                                                                                                                                                                           
-                                                |                                                                                                                         
-                                                |                                                                                                                         
+                                                                                               |                                                                          
+                                                                                               |                                                                          
                                                                                                                                                                           
                                                                                                                                                                           
-                                                                                          
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-        </div>
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                       </div>
 
         <!-- Frame 36 -->
-        <div class="scene f36" style="--hue: 165; --grad-x: 51%; --dim: 0.82;">
+        <div class="scene f36" style="--hue: 186; --grad-x: 58%; --dim: 0.80;">
 
                                                                       X                                                                                                   
                                                                         .   .   *                                                                                         
@@ -1670,25 +1654,25 @@ O   X
                                                                              +                                                                                            
                                                                  O    X                                                                                                   
                                                                            *                                                                                              
-                                                |                        .                                                                                                
-                                                |                                                                                                                         
+                                                                         .                     |                                                                          
+                                                                                               |                                                                          
                                                                                                                                                                           
                                                                                                                                                                           
                                                                                                                                                                           
-                                                                                          
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-        </div>
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                       </div>
 
         <!-- Frame 37 -->
-        <div class="scene f37" style="--hue: 169; --grad-x: 53%; --dim: 0.81;">
+        <div class="scene f37" style="--hue: 191; --grad-x: 60%; --dim: 0.79;">
 
                                                                             .                                                                                             
                                                                         .                                                                                                 
@@ -1714,25 +1698,25 @@ O   X
                                                                            +                                                                                              
                                                                                                                                                                           
                                                                              +                                                                                            
-                                                |               O     X                                                                                                   
-                                                |                                                                                                                         
+                                                                O     X                        |                                                                          
+                                                                                               |                                                                          
                                                                                                                                                                           
                                                                                                                                                                           
                                                                                                                                                                           
                                                                                                                                                                           
-                                                                                          
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-                                                                                        
-        </div>
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                       </div>
 
         <!-- Frame 38 -->
-        <div class="scene f38" style="--hue: 174; --grad-x: 54%; --dim: 0.81;">
+        <div class="scene f38" style="--hue: 196; --grad-x: 61%; --dim: 0.79;">
 
                                                                         .   .                                                                                             
                                                                                                                                                                           
@@ -1749,8 +1733,8 @@ O   X
                                                        |                                                                   .   X  X   O                                   
                                                                                                                              * X* +  * O                                  
                                                                                                                                 X + . *                                   
-                                                |                                                                            O   .*  .                                    
-                                                |                               X                                              XX                                         
+                                                                                               |                             O   .*  .                                    
+                                                                                X              |                               XX                                         
                                                                   .           *                                                     *                                     
                                                                                                                                                                           
                                                                      *                                                                                                    
@@ -1767,7 +1751,7 @@ O   X
                                                                                           </div>
 
         <!-- Frame 39 -->
-        <div class="scene f39" style="--hue: 178; --grad-x: 56%; --dim: 0.80;">
+        <div class="scene f39" style="--hue: 201; --grad-x: 63%; --dim: 0.78;">
 
                                                                                                                                                                           
                                                                                                                                                                           
@@ -1783,8 +1767,8 @@ O   X
                                                        |           +                                                       O .      X  X                                  
                                                                                                                               X   X*  O  .                                
                                                                                                                           .    X                                          
-                                                |                                                                           *   * +  *  O                                 
-                                                |                                                                                  +.  *                                  
+                                                                                               |                            *   * +  *  O                                 
+                                                                                               |                                   +.  *                                  
                                                                                 X                                            O X      .                                   
                                                                                                                               X X.*                                       
                                                                   .           *                                                     *                                     
@@ -1802,7 +1786,7 @@ O   X
                                                                                           </div>
 
         <!-- Frame 40 -->
-        <div class="scene f40" style="--hue: 183; --grad-x: 57%; --dim: 0.80;">
+        <div class="scene f40" style="--hue: 206; --grad-x: 65%; --dim: 0.77;">
 
                                                                                                                                                                           
                                                                                                                                    +                                      
@@ -1818,8 +1802,8 @@ O   X
                                                                                                                           O   @     .   X                                 
                                                                                                                              .     *X     .                               
                                                                                                                          .   X    X    O                                  
-                                                |                                                                           * X*         O                                
-                                                |                                                                               * +   *                                   
+                                                                                               |                            * X*         O                                
+                                                                                               |                                * +   *                                   
                                                                                                                                    + . *                                  
                                                                                 X                                           O  X                                          
                                                                                                                                 X.*   .                                   
@@ -1837,7 +1821,7 @@ O   X
                                                                                           </div>
 
         <!-- Frame 41 -->
-        <div class="scene f41" style="--hue: 187; --grad-x: 59%; --dim: 0.80;">
+        <div class="scene f41" style="--hue: 212; --grad-x: 66%; --dim: 0.77;">
 
                                                                                                                                     +                                     
                                                                                                                                  X                                        
@@ -1853,8 +1837,8 @@ O   X
                                                       X*                                                                 O   @      .                                     
                                                                                                                             .        X   X                                
                                                                                                                              .      *      .                              
-                                                |                                                                       .    X*    X    O                                 
-                                                |                                                                          *  X        *  O                               
+                                                                                               |                        .    X*    X    O                                 
+                                                                                               |                           *  X        *  O                               
                                                                                                                                *  +                                       
                                                                                                                                    + .  *                                 
                                                                                                                            O  X                                           
@@ -1872,7 +1856,7 @@ O   X
                                                                                           </div>
 
         <!-- Frame 42 -->
-        <div class="scene f42" style="--hue: 192; --grad-x: 60%; --dim: 0.79;">
+        <div class="scene f42" style="--hue: 217; --grad-x: 68%; --dim: 0.76;">
 
                                                                                                                                  X                                        
                                                                                                                                                                           
@@ -1887,8 +1871,8 @@ O   X
                                                     O.XXO.                                                                X          *  .                                 
                                                      *X*.O                                                                   @       .     +                              
                                                      XX*                                                               O                  X                               
-                                                |                                                                          ..        X      .                             
-                                                |                                                                           X      X*    O                                
+                                                                                               |                           ..        X      .                             
+                                                                                               |                            X      X*    O                                
                                                                                                                        .      *                                           
                                                                                                                           *   X        *   O                              
                                                                                                                                *  +                                       
@@ -1901,25 +1885,13 @@ O   X
                                                                                                                                                                           
                                                                                                                                                                           
                                                                                                                                                                           
-                                                                                               |                                                                          
-                                                                                               |                                                                          
                                                                                                                                                                           
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                       </div>
+                                                                                                                                                                          
+                                                                                                                                                                          
+                                                                                          </div>
 
         <!-- Frame 43 -->
-        <div class="scene f43" style="--hue: 197; --grad-x: 61%; --dim: 0.79;">
+        <div class="scene f43" style="--hue: 222; --grad-x: 69%; --dim: 0.76;">
 
                                                                                                                                                                           
                                                                                                                            +  X                                           
@@ -1934,8 +1906,8 @@ O   X
                                                    O . *XX.                                                                          *  .                                 
                                                    .*X*X*OO                                                              X                  +                             
                                                     OX +.*                                                            O     @        .                                    
-                                                |    XX**                                                                  .         X     X                              
-                                                |                                                                           .       *        .                            
+                                                     XX**                                      |                           .         X     X                              
+                                                                                               |                            .       *        .                            
                                                                                                                             X      X     O                                
                                                                                                                      .       X                                            
                                                                                                                          *              *   O                             
@@ -1947,25 +1919,14 @@ O   X
                                                                                                                             X                                             
                                                                                                                                                                           
                                                                                                                                                                           
-                                                                                               |                                                                          
-                                                                                               |                                                                          
                                                                                                                                                                           
                                                                                                                                                                           
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                       </div>
+                                                                                                                                                                          
+                                                                                                                                                                          
+                                                                                          </div>
 
         <!-- Frame 44 -->
-        <div class="scene f44" style="--hue: 201; --grad-x: 63%; --dim: 0.78;">
+        <div class="scene f44" style="--hue: 227; --grad-x: 71%; --dim: 0.75;">
 
                                                                                                                                                                           
                                                                                                                               X    .   *   X                              
@@ -1979,8 +1940,8 @@ O   X
                                                    * +  *.                                                                                                                
                                                   O .@  X X+                                                          *     +         *  .                                
                                                   . X* X* O.                                                            X                    +                            
-                                                |  * X + * O                                                                @        .                                    
-                                                |   OX +. *                                                                                                               
+                                                   * X + * O                                   |                            @        .                                    
+                                                    OX +. *                                    |                                                                          
                                                     X X* .                                                                .           X                                   
                                                         *                                                                  .        *          .                          
                                                                                                                     .      X       X                                      
@@ -1992,25 +1953,15 @@ O   X
                                                                                                                          O                                                
                                                                                                                                 . *                                       
                                                                                                                                X                                          
-                                                                                               |                                                                          
-                                                                                               |                                                                          
                                                                                                                                                                           
                                                                                                                                                                           
                                                                                                                                                                           
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                       </div>
+                                                                                                                                                                          
+                                                                                                                                                                          
+                                                                                          </div>
 
         <!-- Frame 45 -->
-        <div class="scene f45" style="--hue: 206; --grad-x: 64%; --dim: 0.78;">
+        <div class="scene f45" style="--hue: 232; --grad-x: 73%; --dim: 0.75;">
 
                                                                                                                              X                                            
                                                                                                                                .   .   *                                  
@@ -2024,8 +1975,8 @@ O   X
                                                   * +   * .                                                                                                               
                                                  O X@   .  X+                                                        *     +                                              
                                                    ..   *   .                                                                         *   .                               
-                                                |.  X* X  O O                                                                                  +                          
-                                                |  * * +  *                                                                                                               
+                                                 .  X* X  O O                                  |                                               +                          
+                                                   * * +  *                                    |                                                                          
                                                    O X + .                                                                            X                                   
                                                     XX.*  .                                                               .                     .                         
                                                          *                                                                 X         *                                    
@@ -2036,25 +1987,16 @@ O   X
                                                                                                                                                                           
                                                                                                                                     +                                     
                                                                                                                         O    X                                            
-                                                                                               |                                  *                                       
-                                                                                               |                                .                                         
+                                                                                                                                  *                                       
+                                                                                                                                .                                         
                                                                                                                                                                           
                                                                                                                                                                           
                                                                                                                                                                           
                                                                                                                                                                           
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                       </div>
+                                                                                          </div>
 
         <!-- Frame 46 -->
-        <div class="scene f46" style="--hue: 210; --grad-x: 66%; --dim: 0.77;">
+        <div class="scene f46" style="--hue: 237; --grad-x: 74%; --dim: 0.74;">
 
                                                                                                                                    .                                      
                                                                                                                                .                                          
@@ -2067,12 +2009,12 @@ O   X
                                                  XO  +@O*  . X                                                               + @    O                                     
                                                  *  +   * .                                                                           *                                   
                                                  OX @   .   +                                                              +                                              
-                                                |  .    *   X.                                                                        *                                   
-                                                |   X  X   O                                                                                                              
+                                                   .    *   X.                                 |                                      *                                   
+                                                .   X  X   O                                   |                                                                          
                                                   * X* +  * O                                                                                                             
                                                      X + . *                                                                                                              
-                                                  O   .*  .                                    |                                      X                                   
-                                                    XX                                         |                          .          *                                    
+                                                  O   .*  .                                                                           X                                   
+                                                    XX                                                                    .          *                                    
                                                          *                                                                                                                
                                                                                                                             *                                             
                                                                                                                             X                                             
@@ -2089,7 +2031,7 @@ O   X
                                                                                           </div>
 
         <!-- Frame 47 -->
-        <div class="scene f47" style="--hue: 215; --grad-x: 67%; --dim: 0.77;">
+        <div class="scene f47" style="--hue: 243; --grad-x: 76%; --dim: 0.73;">
 
                                                                                                                                .   .                                      
                                                                                                                                                                           
@@ -2102,11 +2044,11 @@ O   X
                                                  O  +@  O*    X                                                                     O                                     
                                                 *  +     * .                                                                 +                                            
                                                  X @     .   +                                                                                                            
-                                                | .      X  X                                                             +                                               
-                                                |  X   X*  O  .                                                                                                           
+                                                O .      X  X                                  |                          +                                               
+                                                   X   X*  O  .                                |                                                                          
                                                .    X                                                                                                                     
-                                                 *   * +  *  O                                 |                                                                          
-                                                        +.  *                                  |                                                                          
+                                                 *   * +  *  O                                                                                                            
+                                                        +.  *                                                                                                             
                                                   O X      .                                                                           X                                  
                                                    X X.*                                                                 .           *                                    
                                                          *                                                                                                                
@@ -2124,7 +2066,7 @@ O   X
                                                                                           </div>
 
         <!-- Frame 48 -->
-        <div class="scene f48" style="--hue: 219; --grad-x: 69%; --dim: 0.76;">
+        <div class="scene f48" style="--hue: 248; --grad-x: 77%; --dim: 0.73;">
 
                                                                                                                                                                           
                                                         +                                                                                                                 
@@ -2136,12 +2078,12 @@ O   X
                                                 X      +    .                                                                     +                                       
                                                 O   +@  O*     X                                                                    O                                     
                                                *   +     * .                                                                                                              
-                                                |X            +                                                                                                           
-                                               O|  @     .   X                                                            +                                               
+                                                 X            +                                |                                                                          
+                                               O   @     .   X                                 |                          +                                               
                                                   .     *X     .                                                                                                          
                                               .   X    X    O                                                                                                             
-                                                 * X*         O                                |                                                                          
-                                                     * +   *                                   |                                                                          
+                                                 * X*         O                                                                                                           
+                                                     * +   *                                                                                                              
                                                         + . *                                                                          X                                  
                                                  O  X                                                                                                                     
                                                      X.*   .                                                             .           *                                    
@@ -2159,7 +2101,7 @@ O   X
                                                                                           </div>
 
         <!-- Frame 49 -->
-        <div class="scene f49" style="--hue: 224; --grad-x: 70%; --dim: 0.76;">
+        <div class="scene f49" style="--hue: 253; --grad-x: 79%; --dim: 0.72;">
 
                                                          +                                                                                                                
                                                       X                                                                                                                   
@@ -2171,12 +2113,12 @@ O   X
                                                X       +     .                                                                                                            
                                                O    +@  O*      X                                                                   O                                     
                                               *   +                                                                                                                       
-                                                +        *  .  +                                                                                                          
+                                                X        *  .  +                               +                                                                          
                                               O   @      .                                                                                                                
                                                  .        X   X                                                                                                           
                                                   .      *      .                                                                                                         
-                                             .    X*    X    O                                 |                                                                          
-                                                *  X        *  O                               |                                                                          
+                                             .    X*    X    O                                                                                                            
+                                                *  X        *  O                                                                                                          
                                                     *  +                                                                                                                  
                                                         + .  *                                                                         X                                  
                                                 O  X                                                                                                                      
@@ -2194,7 +2136,7 @@ O   X
                                                                                           </div>
 
         <!-- Frame 50 -->
-        <div class="scene f50" style="--hue: 229; --grad-x: 71%; --dim: 0.75;">
+        <div class="scene f50" style="--hue: 258; --grad-x: 81%; --dim: 0.72;">
 
                                                       X                                                                                                                   
                                                                                                                                                                           
@@ -2204,13 +2146,13 @@ O   X
                                                +   O     *  *  @                                                                                                          
                                                 +                                                                                                                         
                                               X        +      .                                                                                                           
-                                              OX+  + @  O *      X                                                                                                        
-                                             * X@++                                                                                                                       
-                                              O**O        *  .                                                                                                            
-                                               X* @       .     +                                                                                                         
+                                              O    + @  O *      X                            X+                                                                          
+                                             *    +                                           X@+                                                                         
+                                               X          *  .                               O**O                                                                         
+                                                  @       .     +                             X*                                                                          
                                             O                  X                                                                                                          
-                                                ..        X      .                             |                                                                          
-                                                 X      X*    O                                |                                                                          
+                                                ..        X      .                                                                                                        
+                                                 X      X*    O                                                                                                           
                                             .      *                                                                                                                      
                                                *   X        *   O                                                                                                         
                                                     *  +                                                                                                                  
@@ -2229,7 +2171,7 @@ O   X
                                                                                           </div>
 
         <!-- Frame 51 -->
-        <div class="scene f51" style="--hue: 233; --grad-x: 73%; --dim: 0.75;">
+        <div class="scene f51" style="--hue: 263; --grad-x: 82%; --dim: 0.71;">
 
                                                                                                                                        
                                                 +  X                                                                                   
@@ -2238,14 +2180,14 @@ O   X
                                                   O                                                                                    
                                                +         *   *  @                                                                      
                                                                                                                                        
-                                             X X+      +      .                                                                        
-                                             O+X*@ + @  O *       X                                                                    
-                                            * X@*.+                                                                                    
-                                             O.XXO.       *  .                                                                         
-                                              *X*.O              +                                                                     
-                                           O  XX*@        .                                                                            
-                                                .         X     X                              |                                       
-                                                 .       *        .                            |                                       
+                                             X         +      .                               X+                                       
+                                             O     + @  O *       X                          +X*@                                      
+                                            *    +                                           X@*.+                                     
+                                                          *  .                              O.XXO.                                     
+                                              X                  +                           *X*.O                                     
+                                           O     @        .                                  XX*                                       
+                                                .         X     X                                                                      
+                                                 .       *        .                                                                    
                                                  X      X     O                                                                        
                                           .       X                                                                                    
                                               *              *   O                                                                     
@@ -2264,7 +2206,7 @@ O   X
                                                        </div>
 
         <!-- Frame 52 -->
-        <div class="scene f52" style="--hue: 238; --grad-x: 74%; --dim: 0.74;">
+        <div class="scene f52" style="--hue: 268; --grad-x: 84%; --dim: 0.71;">
 
                                                                                                                                        
                                                    X    .   *   X                                                                      
@@ -2272,14 +2214,14 @@ O   X
                                                                                                                                        
                                                   O          *                                                                         
                                                +          *      @                                                                     
-                                               X+                                                                                      
-                                            X +X.*X    +       .                                                                       
-                                             +O **@+ @  O *         X                                                                  
-                                             *+@*. +                                                                                   
-                                           *O . *XX.       *  .                                                                        
-                                            .*X*X*OO              +                                                                    
-                                             OX +.*       .                                    |                                       
-                                              XX**                                             |                                       
+                                                                                              X+                                       
+                                            X          +       .                             +X.*X                                     
+                                                   + @  O *         X                       +O **@                                     
+                                                                                            *+@*. +                                    
+                                           *     +         *  .                            O . *XX.                                    
+                                             X                    +                        .*X*X*OO                                    
+                                                 @        .                                 OX +.*                                     
+                                                                                             XX**                                      
                                                .           X                                                                           
                                                 .        *          .                                                                  
                                          .      X       X                                                                              
@@ -2299,24 +2241,24 @@ O   X
                                                        </div>
 
         <!-- Frame 53 -->
-        <div class="scene f53" style="--hue: 242; --grad-x: 76%; --dim: 0.74;">
+        <div class="scene f53" style="--hue: 274; --grad-x: 85%; --dim: 0.70;">
 
                                                   X                                                                                    
                                                     .   .   *                                                                          
                                                                                                                                        
                                                                                                                                        
                                                               *                                                                        
-                                              +X +        *       @                                                                    
-                                             +X..* X                                                                                   
-                                           X++O  **@   +                                                                               
-                                            X +@O*. X@   O *         X                                                                 
-                                            * +  *.                                                                                    
-                                          *O .@ +X X+                                                                                  
-                                           . X* X* O.      *   .                                                                       
-                                            * X + * O               +                          |                                       
-                                             OX +. *                                           |                                       
-                                             X X* .        X                                                                           
-                                               . *                   .                                                                 
+                                              +           *       @                           X +                                      
+                                                                                            +X..* X                                    
+                                           X           +                                   ++O  **@                                    
+                                                  +  @   O *         X                     X +@O*. X                                   
+                                                                                           * +  *.                                     
+                                          *     +                                         O .@  X X+                                   
+                                                           *   .                          . X* X* O.                                   
+                                                                    +                      * X + * O                                   
+                                                                                            OX +. *                                    
+                                                           X                                X X* .                                     
+                                               .                     .                          *                                      
                                                 X         *                                                                            
                                                   *                                                                                    
                                                  X                                                                                     
@@ -2334,25 +2276,25 @@ O   X
                                                        </div>
 
         <!-- Frame 54 -->
-        <div class="scene f54" style="--hue: 247; --grad-x: 77%; --dim: 0.73;">
+        <div class="scene f54" style="--hue: 279; --grad-x: 87%; --dim: 0.70;">
 
                                                         .                                                                              
                                                     .                                                                                  
                                                                                                                                        
                                                                                                                                        
-                                               X +        *   *                                                                        
-                                            + X.. * X              @                                                                   
+                                                          *   *                               X +                                      
+                                                                   @                       + X.. * X                                   
                                                                                                                                        
-                                          X + O  ** @  +                                                                               
-                                           X  +@O*+.@X   O                                                                             
-                                           * +   * .       *                                                                           
-                                          O X@  +.  X+                                                                                 
-                                            ..   *   .     *                                   |                                       
-                                          .  X* X  O O                                         |                                       
-                                            * * +  *                                                                                   
-                                            O X + .                                                                                    
-                                             XX.*  .       X                                                                           
-                                               .  *       *                                                                            
+                                          X            +                                   + O  ** @                                   
+                                                  + @    O                                X  +@O* . X                                  
+                                                           *                              * +   * .                                    
+                                                +                                        O X@   .  X+                                  
+                                                           *                               ..   *   .                                  
+                                                                                         .  X* X  O O                                  
+                                                                                           * * +  *                                    
+                                                                                           O X + .                                     
+                                                           X                                XX.*  .                                    
+                                               .          *                                      *                                     
                                                                                                                                        
                                                  *                                                                                     
                                                  X                                                                                     
@@ -2369,26 +2311,26 @@ O   X
                                                        </div>
 
         <!-- Frame 55 -->
-        <div class="scene f55" style="--hue: 251; --grad-x: 79%; --dim: 0.73;">
+        <div class="scene f55" style="--hue: 284; --grad-x: 89%; --dim: 0.69;">
 
                                                     .   .                                                                              
                                                                                                                                        
                                                                                                                                        
-                                                 +                                                                                     
-                                               X           *   *                                                                       
-                                            + X . * X                                                                                  
-                                           + O     *                                                                                   
-                                            +    *   @ +                                                                               
-                                          XO  +@O*  . X  O                                                                             
-                                          *  +   *+.                                                                                   
-                                          OX @   .   +                                                                                 
-                                            .  + *   X.                                        |                                       
-                                         .   X  X   O                                          |                                       
-                                           * X* +  * O                                                                                 
-                                              X + . *                                                                                  
-                                           O   .*  .                                                                                   
-                                             XX             X                                                                          
-                                              .   *       *                                                                            
+                                                                                                +                                      
+                                                           *   *                              X                                        
+                                                                                           + X . * X                                   
+                                                                                          + O     *                                    
+                                                       +                                   +    *   @                                  
+                                                         O                               XO  +@O*  . X                                 
+                                                  +                                      *  +   * .                                    
+                                                                                         OX @   .   +                                  
+                                               +                                           .    *   X.                                 
+                                                                                        .   X  X   O                                   
+                                                                                          * X* +  * O                                  
+                                                                                             X + . *                                   
+                                                                                          O   .*  .                                    
+                                                            X                               XX                                         
+                                              .           *                                      *                                     
                                                                                                                                        
                                                  *                                                                                     
                                                  X                                                                                     
@@ -2404,27 +2346,27 @@ O   X
                                                        </div>
 
         <!-- Frame 56 -->
-        <div class="scene f56" style="--hue: 256; --grad-x: 80%; --dim: 0.72;">
+        <div class="scene f56" style="--hue: 289; --grad-x: 90%; --dim: 0.68;">
 
                                                                                                                                        
                                                                                                                                        
-                                                 +                                                                                     
-                                               X                                                                                       
-                                           + X. . *  X                                                                                 
+                                                                                                +                                      
+                                                                                              X                                        
+                                                                                          + X. . *  X                                  
                                                                                                                                        
-                                           + O   * *  @                                                                                
-                                         X      +   .  +                                                                               
-                                          O  +@  O*    X O                                                                             
-                                         *  +     * .                                                                                  
-                                          X @     .   +                                        |                                       
-                                         O .   +  X  X                                         |                                       
-                                            X   X*  O  .                                                                               
-                                        .    X                                                                                         
-                                          *   * +  *  O                                                                                
-                                                 +.  *                                                                                 
-                                           O X      .       X                                                                          
-                                            X X.*                                                                                      
-                                              .   *       *                                                                            
+                                                                                          + O   * *  @                                 
+                                                       +                                X      +   .                                   
+                                                         O                               O  +@  O*    X                                
+                                                                                        *  +     * .                                   
+                                                                                         X @     .   +                                 
+                                               +                                        O .      X  X                                  
+                                                                                           X   X*  O  .                                
+                                                                                       .    X                                          
+                                                                                         *   * +  *  O                                 
+                                                                                                +.  *                                  
+                                                            X                             O X      .                                   
+                                                                                           X X.*                                       
+                                              .           *                                      *                                     
                                                                                                                                        
                                                 *                                                                                      
                                                                                                                                        
@@ -2439,29 +2381,29 @@ O   X
                                                        </div>
 
         <!-- Frame 57 -->
-        <div class="scene f57" style="--hue: 261; --grad-x: 81%; --dim: 0.72;">
+        <div class="scene f57" style="--hue: 294; --grad-x: 92%; --dim: 0.68;">
 
                                                                                                                                        
-                                                 +                                                                                     
-                                               X                                                                                       
-                                           + X  .                                                                                      
-                                              .    *  X                                                                                
-                                          +  O                                                                                         
-                                          +       * * @                                                                                
-                                         X      +    .                                                                                 
-                                         O   +@  O*     XO                                                                             
-                                        *   +     * .                                                                                  
-                                          X            +                                       +                                       
-                                        O   @     .   X                                                                                
-                                           .     *X     .                                                                              
-                                       .   X    X    O                                                                                 
-                                          * X*         O                                                                               
-                                              * +   *                                                                                  
-                                                 + . *                                                                                 
-                                          O  X              X                                                                          
-                                              X.*   .                                                                                  
-                                           X .                                                                                         
-                                                   *                                                                                   
+                                                                                                +                                      
+                                                                                              X                                        
+                                                                                          + X  .                                       
+                                                                                             .    *  X                                 
+                                                                                         +  O                                          
+                                                                                         +       * * @                                 
+                                                                                        X      +    .                                  
+                                                         O                              O   +@  O*     X                               
+                                                                                       *   +     * .                                   
+                                                                                         X            +                                
+                                                                                       O   @     .   X                                 
+                                                                                          .     *X     .                               
+                                                                                      .   X    X    O                                  
+                                                                                         * X*         O                                
+                                                                                             * +   *                                   
+                                                                                                + . *                                  
+                                                            X                            O  X                                          
+                                                                                             X.*   .                                   
+                                             .                                            X                                            
+                                                                                                  *                                    
                                                                                                                                        
                                                                                                                                        
                                                                                                                                        
@@ -2474,287 +2416,7 @@ O   X
                                                        </div>
 
         <!-- Frame 58 -->
-        <div class="scene f58" style="--hue: 265; --grad-x: 83%; --dim: 0.71;">
-
-                                                  +                                                                                    
-                                               X                                                                                       
-                                          +                                                                                            
-                                             X. .  *   X                                                                               
-                                                                                                                                       
-                                         +  O     *  *                                                                                 
-                                          +            @                                                                               
-                                        X       +     .                                                                                
-                                        O    +@  O*      X                                    X+                                       
-                                       *   +                                                  X@+                                      
-                                         X        *  .  +                                    O**O                                      
-                                       O   @      .                                           X*                                       
-                                          .        X   X                                                                               
-                                           .      *      .                                                                             
-                                      .    X*    X    O                                                                                
-                                         *  X        *  O                                                                              
-                                             *  +                                                                                      
-                                                 + .  *                                                                                
-                                         O  X                                                                                          
-                                               .*    .                                                                                 
-                                           X  X                                                                                        
-                                                   *                                                                                   
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                       </div>
-
-        <!-- Frame 59 -->
-        <div class="scene f59" style="--hue: 270; --grad-x: 84%; --dim: 0.71;">
-
-                                               X                                                                                       
-                                                                                                                                       
-                                         +  X   .   *  X                                                                               
-                                              .                                                                                        
-                                                                                                                                       
-                                        +   O     *  *  @                                                                              
-                                         +                                                                                             
-                                       X        +      .                                      X+                                       
-                                       O    + @  O *      X                                  +X*@                                      
-                                      *    +                                                 X@*.+                                     
-                                        X          *  .                                     O.XXO.                                     
-                                           @       .     +                                   *X*.O                                     
-                                     O                  X                                    XX*                                       
-                                         ..        X      .                                                                            
-                                          X      X*    O                                                                               
-                                     .      *                                                                                          
-                                        *   X        *   O                                                                             
-                                             *  +                                                                                      
-                                                 + .   *                                                                               
-                                        O   X                                                                                          
-                                                *    .                                                                                 
-                                              X.                                                                                       
-                                          X                                                                                            
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                       </div>
-
-        <!-- Frame 60 -->
-        <div class="scene f60" style="--hue: 274; --grad-x: 86%; --dim: 0.70;">
-
-                                                                                                                                       
-                                         +  X                                                                                          
-                                             .  .   *   X                                                                              
-                                                                                                                                       
-                                           O                                                                                           
-                                        +         *   *  @                                                                             
-                                                                                              X+                                       
-                                      X         +      .                                     +X.*X                                     
-                                      O     + @  O *       X                                +O **@                                     
-                                     *    +                                                 *+@*. +                                    
-                                                   *  .                                    O . *XX.                                    
-                                       X                  +                                .*X*X*OO                                    
-                                    O     @        .                                        OX +.*                                     
-                                         .         X     X                                   XX**                                      
-                                          .       *        .                                                                           
-                                          X      X     O                                                                               
-                                   .       X                                                                                           
-                                       *              *   O                                                                            
-                                             *  +                                                                                      
-                                                 +  .                                                                                  
-                                        O   X                                                                                          
-                                                                                                                                       
-                                             X. *                                                                                      
-                                          X                                                                                            
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                       </div>
-
-        <!-- Frame 61 -->
-        <div class="scene f61" style="--hue: 279; --grad-x: 87%; --dim: 0.70;">
-
-                                                                                                                                       
-                                            X    .   *   X                                                                             
-                                             .                                                                                         
-                                                                                                                                       
-                                           O          *                                                                                
-                                        +          *      @                                   X +                                      
-                                                                                            +X..* X                                    
-                                     X          +       .                                  ++O  **@                                    
-                                            + @  O *         X                             X +@O*. X                                   
-                                                                                           * +  *.                                     
-                                    *     +         *  .                                  O .@  X X+                                   
-                                      X                    +                              . X* X* O.                                   
-                                          @        .                                       * X + * O                                   
-                                                                                            OX +. *                                    
-                                        .           X                                       X X* .                                     
-                                         .        *          .                                  *                                      
-                                  .      X       X                                                                                     
-                                           X                                                                                           
-                                                       *   O                                                                           
-                                             *  +                                                                                      
-                                                                                                                                       
-                                           X     +                                                                                     
-                                       O                                                                                               
-                                              . *                                                                                      
-                                             X                                                                                         
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                       </div>
-
-        <!-- Frame 62 -->
-        <div class="scene f62" style="--hue: 283; --grad-x: 89%; --dim: 0.69;">
-
-                                           X                                                                                           
-                                             .   .   *                                                                                 
-                                                                                                                                       
-                                                                                                                                       
-                                                       *                                      X +                                      
-                                       +           *       @                               + X.. * X                                   
-                                                                                                                                       
-                                    X           +                                          + O  ** @                                   
-                                           +  @   O *         X                           X  +@O* . X                                  
-                                                                                          * +   * .                                    
-                                   *     +                                               O X@   .  X+                                  
-                                                    *   .                                  ..   *   .                                  
-                                                             +                           .  X* X  O O                                  
-                                                                                           * * +  *                                    
-                                                    X                                      O X + .                                     
-                                        .                     .                             XX.*  .                                    
-                                         X         *                                             *                                     
-                                           *                                                                                           
-                                          X                                                                                            
-                                                       *    O                                                                          
-                                            *   +                                                                                      
-                                                                                                                                       
-                                                  +                                                                                    
-                                      O    X                                                                                           
-                                                *                                                                                      
-                                              .                                                                                        
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                       </div>
-
-        <!-- Frame 63 -->
-        <div class="scene f63" style="--hue: 288; --grad-x: 90%; --dim: 0.69;">
-
-                                                 .                                                                                     
-                                             .                                                                                         
-                                                                                                                                       
-                                                                                                +                                      
-                                                   *   *                                      X                                        
-                                                            @                              + X . * X                                   
-                                                                                          + O     *                                    
-                                   X            +                                          +    *   @                                  
-                                           + @    O                                      XO  +@O*  . X                                 
-                                                    *                                    *  +   * .                                    
-                                         +                                               OX @   .   +                                  
-                                                    *                                      .    *   X.                                 
-                                                                                        .   X  X   O                                   
-                                                                                          * X* +  * O                                  
-                                                                                             X + . *                                   
-                                                    X                                     O   .*  .                                    
-                                        .          *                                        XX                                         
-                                                                                                 *                                     
-                                          *                                                                                            
-                                          X                                                                                            
-                                                             O                                                                         
-                                                +                                                                                      
-                                                                                                                                       
-                                                  +                                                                                    
-                                     O     X                                                                                           
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                       </div>
-
-        <!-- Frame 64 -->
-        <div class="scene f64" style="--hue: 293; --grad-x: 91%; --dim: 0.68;">
-
-                                             .   .                                                                                     
-                                                                                                                                       
-                                                                                                +                                      
-                                                                                              X                                        
-                                                    *   *                                 + X. . *  X                                  
-                                                                                                                                       
-                                                                                          + O   * *  @                                 
-                                                +                                       X      +   .                                   
-                                                  O                                      O  +@  O*    X                                
-                                           +                                            *  +     * .                                   
-                                                                                         X @     .   +                                 
-                                        +                                               O .      X  X                                  
-                                                                                           X   X*  O  .                                
-                                                                                       .    X                                          
-                                                                                         *   * +  *  O                                 
-                                                                                                +.  *                                  
-                                                     X                                    O X      .                                   
-                                       .           *                                       X X.*                                       
-                                                                                                 *                                     
-                                          *                                                                                            
-                                          X                                                                                            
-                                                                                                                                       
-                                                                                                                                       
-                                                +                                                                                      
-                                                                                                                                       
-                                          X                                                                                            
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                       </div>
-
-        <!-- Frame 65 -->
-        <div class="scene f65" style="--hue: 297; --grad-x: 93%; --dim: 0.68;">
-
-                                                                                                                                       
-                                                                                                +                                      
-                                                                                              X                                        
-                                                                                          + X  .                                       
-                                                                                             .    *  X                                 
-                                                                                         +  O                                          
-                                                                                         +       * * @                                 
-                                                +                                       X      +    .                                  
-                                                  O                                     O   +@  O*     X                               
-                                                                                       *   +     * .                                   
-                                                                                         X            +                                
-                                        +                                              O   @     .   X                                 
-                                                                                          .     *X     .                               
-                                                                                      .   X    X    O                                  
-                                                                                         * X*         O                                
-                                                                                             * +   *                                   
-                                                     X                                          + . *                                  
-                                                                                         O  X                                          
-                                       .           *                                         X.*   .                                   
-                                                                                          X                                            
-                                         *                                                        *                                    
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                                                                                                       
-                                                       </div>
-
-        <!-- Frame 66 -->
-        <div class="scene f66" style="--hue: 302; --grad-x: 94%; --dim: 0.67;">
+        <div class="scene f58" style="--hue: 299; --grad-x: 94%; --dim: 0.67;">
 
                                                                                                  +                                     
                                                                                               X                                        
@@ -2764,7 +2426,7 @@ O   X
                                                                                         +  O     *  *                                  
                                                                                          +            @                                
                                                                                        X       +     .                                 
-                                                  O                                    O    +@  O*      X                              
+                                                                                       O    +@  O*      X                              
                                                                                       *   +                                            
                                                                                         X        *  .  +                               
                                                                                       O   @      .                                     
@@ -2773,9 +2435,9 @@ O   X
                                                                                      .    X*    X    O                                 
                                                                                         *  X        *  O                               
                                                                                             *  +                                       
-                                                     X                                          + .  *                                 
+                                                                                                + .  *                                 
                                                                                         O  X                                           
-                                      .                                                       .*    .                                  
+                                                                                              .*    .                                  
                                                                                           X  X                                         
                                                                                                   *                                    
                                                                                                                                        
@@ -2788,8 +2450,8 @@ O   X
                                                                                                                                        
                                                        </div>
 
-        <!-- Frame 67 -->
-        <div class="scene f67" style="--hue: 306; --grad-x: 96%; --dim: 0.67;">
+        <!-- Frame 59 -->
+        <div class="scene f59" style="--hue: 305; --grad-x: 95%; --dim: 0.67;">
 
                                                                                               X                                        
                                                                                                                                        
@@ -2823,8 +2485,8 @@ O   X
                                                                                                                                        
                                                        </div>
 
-        <!-- Frame 68 -->
-        <div class="scene f68" style="--hue: 311; --grad-x: 97%; --dim: 0.66;">
+        <!-- Frame 60 -->
+        <div class="scene f60" style="--hue: 310; --grad-x: 97%; --dim: 0.66;">
 
                                                                                                                                        
                                                                                         +  X                                           
@@ -2858,8 +2520,8 @@ O   X
                                                                                                                                        
                                                        </div>
 
-        <!-- Frame 69 -->
-        <div class="scene f69" style="--hue: 315; --grad-x: 99%; --dim: 0.66;">
+        <!-- Frame 61 -->
+        <div class="scene f61" style="--hue: 315; --grad-x: 98%; --dim: 0.66;">
 
                                                                                                                                        
                                                                                            X    .   *   X                              
@@ -2893,8 +2555,8 @@ O   X
                                                                                                                                        
                                                        </div>
 
-        <!-- Frame 70 -->
-        <div class="scene f70" style="--hue: 320; --grad-x: 100%; --dim: 0.65;">
+        <!-- Frame 62 -->
+        <div class="scene f62" style="--hue: 320; --grad-x: 100%; --dim: 0.65;">
 
                                                                                           X                                            
                                                                                             .   .   *                                  
