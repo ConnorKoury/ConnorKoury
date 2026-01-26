@@ -1,8 +1,9 @@
 <div align="center">
 
-<img src="./tree.svg" alt="Animated ASCII Christmas Tree" width="220" />
+<img src="./fireworks.svg" alt="Animated ASCII fireworks" width="600" style="max-width: 100%; height: auto;" />
 
 ### Hi, I’m Connor
+
 **SWE @ WISE • Computer Engineering @ Villanova • Radar & Data**
 
 </div>
