@@ -2,9 +2,9 @@
 
 <img src="./fireworks.svg" alt="Animated ASCII fireworks" width="600" style="max-width: 100%; height: auto;" />
 
-### Hi, I’m Connor
+### Connor Koury
 
-**SWE @ WISE • Computer Engineering @ Villanova • Radar & Data**
+**Software & Computer Engineer from Villanova • Data Focus**
 
 </div>
 
@@ -14,19 +14,3 @@
 
 - Interested in **data systems, full-stack web apps, and embedded systems**
 - 🏎️ Lead data analysis & acquistion for **Formula SAE** team (NovaRacing)
-
----
-
-## Tech I Work With
-
-**Languages:**  
-`C` · `C++` · `Python` · `TypeScript` · `JavaScript` · `Java`
-
-**Backend / Cloud:**  
-`Node.js` · `tRPC` · `PostgreSQL` · `MongoDB` · `AWS` · `GCP` · `Docker` · `Terraform`
-
-**Frontend / UI:**  
-`React` · `Next.js` · `Tailwind CSS`
-
-**Data / Tools:**  
-`Amplitude` · `Stripe` · `Supabase` · `GCS` · `Git` · `GitHub`
