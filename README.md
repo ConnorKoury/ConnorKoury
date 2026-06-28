@@ -4,7 +4,7 @@
 
 ### Connor Koury
 
-**Software & Computer Engineer from Villanova • Data Focus**
+**Software & Computer Engineer • Data Focus**
 
 </div>
 
@@ -12,5 +12,5 @@
 
 ## About Me
 
-- Interested in **data systems, full-stack web apps, and embedded systems**
-- 🏎️ Lead data analysis & acquistion for **Formula SAE** team (NovaRacing)
+- I want to improve the world by first focusing on community development through technology
+- 🏎️ I fell in love with data when leading data analysis & acquistion for **Formula SAE** team NovaRacing
