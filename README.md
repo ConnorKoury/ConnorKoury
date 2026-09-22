@@ -4,13 +4,12 @@
 
 ### Connor Koury
 
-**Software & Computer Engineer • Data Focus**
+**Software & Computer Engineer • AI/Data Focus**
 
 </div>
 
 ---
 
-## About Me
-
-- I want to improve the world by first focusing on community development through technology
-- 🏎️ I fell in love with data when leading data analysis & acquistion for **Formula SAE** team NovaRacing
+<div align="center">
+I want to improve the world by first focusing on community development through technology
+</div>
